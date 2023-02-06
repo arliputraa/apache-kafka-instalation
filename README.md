@@ -79,7 +79,7 @@ kafka.service
     
 kafka_connect.service
 
-   [Unit]
+    [Unit]
     Requires=kafka.service
     After=kafka.service
     
