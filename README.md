@@ -25,7 +25,7 @@
     
 change the logs dir to:
 
-    log.dirs=/home/arliddi/kafka/logs
+    log.dirs=/home/devarli/kafka/logs
     
 append this to EOF:
 
@@ -120,11 +120,17 @@ Append this:
 
 ### Check status of kafka_connect
 
-    sudo systemctl start kafka_connect
+    sudo systemctl status kafka_connect
 
 ![image](https://github.com/arliputraa/apache-kafka-instalation/assets/110078907/aca7b588-81e0-48c2-b3c5-a5704cee8c6f)
 
 ### For more learning Apache Kafka in this link: https://github.com/arliputraa/kafka-cluster-configuration
+
+### Optional add monitoring Kafdrop for gui kafka in this link: https://github.com/arliputraa/kafdrop-configuration-for-gui-kafka
+
+![image](https://github.com/arliputraa/apache-kafka-instalation/assets/110078907/cd500506-c2f2-4b9a-936a-0dfccd9bdcea)
+
+
 
 
     
