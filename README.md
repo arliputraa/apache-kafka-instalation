@@ -2,9 +2,7 @@
 
 ## Running:
 
-    sudo apt-get update
-    and
-    sudo apt-get upgrade
+    sudo apt-get update && sudo apt-get upgrade
     
 ## Install Java
 
@@ -21,7 +19,7 @@
     
 ## Edit server.properties of kafka
 
-   sudo nano ~/kafka/config/server.properties
+    sudo nano ~/kafka/config/server.properties
     
 change the logs dir to:
 
